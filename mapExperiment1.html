@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Basic Mappa Tutorial
+        </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js" type="text/javascript"></script>
+        <script src="https://unpkg.com/mappa-mundi/dist/mappa.min.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <h1>Basic Mappa.js trial</h1>
+        <p>This is the first of the series of tutorials offered by Cristobal Valenzuela for Mappa.js.</p>
+        <script>
+            let myMap;
+            let canvas;
+            const key = 'pk.eyJ1IjoiYmF2YS1rdW1hcmF2ZWwiLCJhIjoiY2pmb21hcWMxMDNkYTJ4b3cwb2Y4dzM3eiJ9.T5521hd2czizN1LpnCwlvQ';
+            const mappa = new Mappa('Mapbox', key);
+
+            function setup(){
+                canvas = createCanvas(640,640);
+                background(100);
+            }
+
+            function draw(){
+                
+            }
+        </script>
+    </body>
+</html>
