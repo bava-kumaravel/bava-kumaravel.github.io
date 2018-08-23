@@ -2,16 +2,16 @@
 <html lang="en">
     <head>
         <title>
-            Mapping my location with Mappa
+            Meteor data in Mappa.js
         </title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js" type="text/javascript"></script>
         <script src="https://unpkg.com/mappa-mundi/dist/mappa.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <h1>Starting with Mappa.js</h1>
-        <p>This is the first of the series of tutorials offered by Cristobal Valenzuela for Mappa.js.
-            <br>    I have tried to implement a Mappa.js script within a html document, embedding a Mapbox tilemap and marking my current location on it.
+        <h1>Embedding data in Mappa.js</h1>
+        <p>This is the second of the series of tutorials offered by Cristobal Valenzuela for Mappa.js.
+            <br>I have tried to pull data from a csv file provided by NASA containing the details of the various meteor landings on Earth. The data is represented on the map.
         </p>
         <script>
             let myMap;
@@ -24,11 +24,11 @@
                 lng:-3,
                 zoom:5,
                 studio: true,
-                style:'mapbox://styles/mapbox/streets-v10',
+                style:'mapbox://styles/mapbox/dark-v9',
                 
             };
             function setup(){
-                canvas = createCanvas(640,640);
+                canvas = createCanvas(1080,720);
                 
                 myMap = mappa.tileMap(options);
                 myMap.overlay(canvas);
@@ -41,9 +41,9 @@
                 const locay = myMap.latLngToPixel(51.522941, -0.138786);
                 fill(200,100,100);
                 ellipse(locay.x, locay.y, 20, 20);
-                ellipse(20, 620, 20, 20);
-                fill(0);
-                text("I live here", 40,625);
+                ellipse(20, 700, 20, 20);
+                fill(255);
+                text("Meteor", 40,705);
             }
         </script>
         
