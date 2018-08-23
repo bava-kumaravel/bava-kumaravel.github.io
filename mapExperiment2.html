@@ -14,15 +14,15 @@
             <br>I have tried to pull data from a csv file provided by NASA containing the details of the various meteor landings on Earth. The data is represented on the map.
         </p>
         <script>
-            let myMap;
+             let myMap;
             let canvas;
             const key = 'pk.eyJ1IjoiYmF2YS1rdW1hcmF2ZWwiLCJhIjoiY2psNXg0NTI1Mml0cjNxcDJ1d3Yyb3FuNCJ9.fPDDUsub66z1ItHK9dCVuw';
             const mappa = new Mappa('Mapbox', key);
             
             const options={
-                lat:54,
-                lng:-3,
-                zoom:5,
+                lat:40,
+                lng:0,
+                zoom:2,
                 studio: true,
                 style:'mapbox://styles/mapbox/dark-v9',
                 
@@ -32,18 +32,29 @@
                 
                 myMap = mappa.tileMap(options);
                 myMap.overlay(canvas);
+
+                meteorites = loadTable('Meteorite_Landings.csv', 'csv', 'header');
                 fill(200,100,100);
-                myMap.onChange(drawPoint);
+                myMap.onChange(drawMeteors);
             }
 
-            function drawPoint(){
+            function drawMeteors(){
                 clear();
-                const locay = myMap.latLngToPixel(51.522941, -0.138786);
+
+                for(let i=0;i<meteorites.getRowCount();i++){
+                    const latitude = Number(meteorites.getString(i,'reclat'));
+                    const longitude = Number(meteorites.getString(i, 'reclong'));
+                    const pos = myMap.latLngToPixel(latitude, longitude);
+                    let size = meteorites.getString(i, 'mass (g)');
+                    fill(200,100,100);
+                    size = map(size, 558, 60000000, 1, 25)+myMap.zoom();
+                    ellipse(pos.x, pos.y, size, size);
+                }
+                
                 fill(200,100,100);
-                ellipse(locay.x, locay.y, 20, 20);
-                ellipse(20, 700, 20, 20);
+                ellipse(20, 705, 10, 10);
                 fill(255);
-                text("Meteor", 40,705);
+                text("Meteor landings", 35,710);
             }
         </script>
         
