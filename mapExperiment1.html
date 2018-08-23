@@ -5,26 +5,47 @@
             Basic Mappa Tutorial
         </title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js" type="text/javascript"></script>
-        <script src="https://unpkg.com/mappa-mundi/dist/mappa.min.js" type="text/javascript"></script>
+        <script src="https://unpkg.com/mappa-mundi/dist/mappa.js" type="text/javascript"></script>
     </head>
 
     <body>
         <h1>Basic Mappa.js trial</h1>
-        <p>This is the first of the series of tutorials offered by Cristobal Valenzuela for Mappa.js.</p>
+        <p>This is the first of the series of tutorials offered by Cristobal Valenzuela for Mappa.js.
+            <br>    I have tried to implement a Mappa.js script within a html document, embedding a Mapbox tilemap and marking my current location on it.
+        </p>
         <script>
             let myMap;
             let canvas;
-            const key = 'pk.eyJ1IjoiYmF2YS1rdW1hcmF2ZWwiLCJhIjoiY2pmb21hcWMxMDNkYTJ4b3cwb2Y4dzM3eiJ9.T5521hd2czizN1LpnCwlvQ';
+            const key = 'pk.eyJ1IjoiYmF2YS1rdW1hcmF2ZWwiLCJhIjoiY2psNXg0NTI1Mml0cjNxcDJ1d3Yyb3FuNCJ9.fPDDUsub66z1ItHK9dCVuw';
             const mappa = new Mappa('Mapbox', key);
-
+            
+            const options={
+                lat:54,
+                lng:-3,
+                zoom:5,
+                studio: true,
+                style:'mapbox://styles/mapbox/streets-v10',
+                
+            };
             function setup(){
                 canvas = createCanvas(640,640);
-                background(100);
+                
+                myMap = mappa.tileMap(options);
+                myMap.overlay(canvas);
+                fill(200,100,100);
+                myMap.onChange(drawPoint);
             }
 
-            function draw(){
-                
+            function drawPoint(){
+                clear();
+                const locay = myMap.latLngToPixel(51.522941, -0.138786);
+                fill(200,100,100);
+                ellipse(locay.x, locay.y, 20, 20);
+                ellipse(20, 620, 20, 20);
+                fill(0);
+                text("I live here", 40,625);
             }
         </script>
+        
     </body>
 </html>
