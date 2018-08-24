@@ -62,6 +62,13 @@ function draw(){
     noStroke();
     fill(255,255,0);
     ellipse(Number(taxiPosition.x), Number(taxiPosition.y), 7,7);
+
+    if(visitedRoutes.length==allCoordinates.length){
+        clear();
+        visitedRoutes.clear();
+        coordinate=0;
+        delta=0;
+    }
 }
 
 function drawRoute(){
