@@ -1,0 +1,22 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+div{
+    border: 1px solid grey;
+    padding:30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+a{
+    color: teal;
+    font-weight: 300;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+h1{
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 900; font-size: 300%;padding: 0 !important;
+  margin: 0 !important;
+}
