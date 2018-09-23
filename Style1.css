@@ -9,6 +9,7 @@ div{
 }
 a{
     color: teal;
+    font-weight: 300;
 }
 p{
     font-family: 'Source Sans Pro', sans-serif;
