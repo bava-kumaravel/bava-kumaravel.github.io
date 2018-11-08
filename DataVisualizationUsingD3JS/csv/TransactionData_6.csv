@@ -1,0 +1,11 @@
+CurrentState,Giver,Receiver,Amount
+0,Family 0,Community,100
+0,Community,Family 0,90
+0,Family 0,Community,100
+0,Family 0,Community,50
+0,Family 1,Community,100
+0,Family 0,Family 1,30
+0,Family 0,Family 1,15
+0,Family 1,Community,100
+0,Family 2,Family 1,60
+0,Family 2,Family 1,30
