@@ -1,0 +1,214 @@
+ManifestFileVersion: 0
+CRC: 2598871853
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: plane
+      Dependencies: {}
+    Info_1:
+      Name: spaces0
+      Dependencies: {}
+    Info_2:
+      Name: spaces1
+      Dependencies: {}
+    Info_3:
+      Name: spaces15
+      Dependencies: {}
+    Info_4:
+      Name: spaces8
+      Dependencies: {}
+    Info_5:
+      Name: spaces9
+      Dependencies: {}
+    Info_6:
+      Name: spaces10
+      Dependencies: {}
+    Info_7:
+      Name: spaces22
+      Dependencies: {}
+    Info_8:
+      Name: spaces23
+      Dependencies: {}
+    Info_9:
+      Name: spaces24
+      Dependencies: {}
+    Info_10:
+      Name: spaces29
+      Dependencies: {}
+    Info_11:
+      Name: spaces12
+      Dependencies: {}
+    Info_12:
+      Name: spaces13
+      Dependencies: {}
+    Info_13:
+      Name: spaces14
+      Dependencies: {}
+    Info_14:
+      Name: spaces26
+      Dependencies: {}
+    Info_15:
+      Name: spaces27
+      Dependencies: {}
+    Info_16:
+      Name: spaces28
+      Dependencies: {}
+    Info_17:
+      Name: spaces11
+      Dependencies: {}
+    Info_18:
+      Name: spaces25
+      Dependencies: {}
+    Info_19:
+      Name: spaces7
+      Dependencies: {}
+    Info_20:
+      Name: spaces20
+      Dependencies: {}
+    Info_21:
+      Name: spaces21
+      Dependencies: {}
+    Info_22:
+      Name: spaces6
+      Dependencies: {}
+    Info_23:
+      Name: spaces19
+      Dependencies: {}
+    Info_24:
+      Name: spaces4
+      Dependencies: {}
+    Info_25:
+      Name: spaces5
+      Dependencies: {}
+    Info_26:
+      Name: spaces18
+      Dependencies: {}
+    Info_27:
+      Name: spaces3
+      Dependencies: {}
+    Info_28:
+      Name: spaces17
+      Dependencies: {}
+    Info_29:
+      Name: spaces2
+      Dependencies: {}
+    Info_30:
+      Name: spaces16
+      Dependencies: {}
+    Info_31:
+      Name: furniture0
+      Dependencies: {}
+    Info_32:
+      Name: furniture6
+      Dependencies: {}
+    Info_33:
+      Name: furniture7
+      Dependencies: {}
+    Info_34:
+      Name: furniture16
+      Dependencies: {}
+    Info_35:
+      Name: furniture17
+      Dependencies: {}
+    Info_36:
+      Name: furniture24
+      Dependencies: {}
+    Info_37:
+      Name: furniture25
+      Dependencies: {}
+    Info_38:
+      Name: furniture2
+      Dependencies: {}
+    Info_39:
+      Name: furniture8
+      Dependencies: {}
+    Info_40:
+      Name: furniture22
+      Dependencies: {}
+    Info_41:
+      Name: furniture18
+      Dependencies: {}
+    Info_42:
+      Name: furniture19
+      Dependencies: {}
+    Info_43:
+      Name: furniture15
+      Dependencies: {}
+    Info_44:
+      Name: furniture37
+      Dependencies: {}
+    Info_45:
+      Name: furniture5
+      Dependencies: {}
+    Info_46:
+      Name: furniture32
+      Dependencies: {}
+    Info_47:
+      Name: furniture9
+      Dependencies: {}
+    Info_48:
+      Name: furniture1
+      Dependencies: {}
+    Info_49:
+      Name: furniture10
+      Dependencies: {}
+    Info_50:
+      Name: furniture11
+      Dependencies: {}
+    Info_51:
+      Name: furniture23
+      Dependencies: {}
+    Info_52:
+      Name: furniture31
+      Dependencies: {}
+    Info_53:
+      Name: furniture12
+      Dependencies: {}
+    Info_54:
+      Name: furniture13
+      Dependencies: {}
+    Info_55:
+      Name: furniture26
+      Dependencies: {}
+    Info_56:
+      Name: furniture36
+      Dependencies: {}
+    Info_57:
+      Name: furniture33
+      Dependencies: {}
+    Info_58:
+      Name: furniture3
+      Dependencies: {}
+    Info_59:
+      Name: furniture38
+      Dependencies: {}
+    Info_60:
+      Name: furniture4
+      Dependencies: {}
+    Info_61:
+      Name: furniture30
+      Dependencies: {}
+    Info_62:
+      Name: furniture14
+      Dependencies: {}
+    Info_63:
+      Name: furniture27
+      Dependencies: {}
+    Info_64:
+      Name: furniture28
+      Dependencies: {}
+    Info_65:
+      Name: furniture29
+      Dependencies: {}
+    Info_66:
+      Name: furniture21
+      Dependencies: {}
+    Info_67:
+      Name: furniture34
+      Dependencies: {}
+    Info_68:
+      Name: furniture20
+      Dependencies: {}
+    Info_69:
+      Name: furniture35
+      Dependencies: {}

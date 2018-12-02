@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 3944217832
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6983763bf2dc73f4ec4531e3c6c23224
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5bb07fe2f540e00523b6e3e30962c379
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e6133ba9c529847d2909da69fda23523, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b167a4b94de6c4bebbe37edd6ea3a6df, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/NewNewFurniture/KeyBoard.prefab
+Dependencies: []
